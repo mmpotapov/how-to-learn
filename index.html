@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -147,11 +146,13 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
-            миру.
-            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
-            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <blockquote class="khan__quote">
+            <p>Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+              миру.
+              Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+              повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          </blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги">
@@ -213,18 +214,16 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <nav>
-        <ul class="resources__logo-zone">
-          <li><a class="resources__link" href="#">
-              <img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a></li>
-          <li><a class="resources__link" href="#">
-              <img src="./images/logo/resources-n1.svg" alt="Логотип Н плюс один"></a></li>
-          <li><a class="resources__link" href="#">
-              <img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a></li>
-          <li><a class="resources__link" href="#">
-              <img src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a></li>
-        </ul>
-      </nav>
+      <ul class="resources__logo-zone">
+        <li><a href="#">
+            <img class="resources__link" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a></li>
+        <li><a href="#">
+            <img class="resources__link" src="./images/logo/resources-n1.svg" alt="Логотип Н плюс один"></a></li>
+        <li><a href="#">
+            <img class="resources__link" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a></li>
+        <li><a href="#">
+            <img class="resources__link" src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a></li>
+      </ul>
     </section>
 
     <footer class="footer">
@@ -233,32 +232,28 @@
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; Виктор Абанькин</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link" href="#">Главная</a></li>
-              <li><a class="footer__column-link" href="#">Концепция</a></li>
-              <li><a class="footer__column-link" href="#">Наставники</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link" href="#">Главная</a></li>
+            <li><a class="footer__column-link" href="#">Концепция</a></li>
+            <li><a class="footer__column-link" href="#">Наставники</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link" href="#">
-                  <img class="footer__social-icon" src="./images/facebook_color_white.svg"
-                    alt="Иконка Фейсбук">Facebook</a></li>
-              <li><a class="footer__column-link" href="#">
-                  <img class="footer__social-icon" src="./images/vk_color_white.svg"
-                    alt="Иконка ВКонтакте">ВКонтакте</a></li>
-              <li><a class="footer__column-link" href="#">
-                  <img class="footer__social-icon" src="./images/instagram_color_white.svg"
-                    alt="Иконка Инстаграм">Instagram</a></li>
-            </ul>
-          </nav>
-        </div>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg"
+                  alt="Иконка Фейсбук">Facebook</a></li>
+            <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка ВКонтакте">ВКонтакте</a>
+            </li>
+            <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg"
+                  alt="Иконка Инстаграм">Instagram</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
